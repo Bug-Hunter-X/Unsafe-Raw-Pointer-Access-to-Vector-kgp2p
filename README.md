@@ -1,0 +1,1 @@
+This repository demonstrates a common error when working with raw pointers in Rust.  The example showcases unsafe access to a vector's internal data using `as_mut_ptr()`.  Modifying the data through this raw pointer can easily lead to data corruption or panics if not done correctly. The solution demonstrates a safer alternative.
